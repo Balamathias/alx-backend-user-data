@@ -41,5 +41,5 @@ class DB:
             User: user
         """
         user = User(name=name, hashed_password=hashed_password)
-        self._session.add(user)
+        self.__session.add(user)
         return user
