@@ -23,5 +23,5 @@ class User(Base):
     session_id = Column(String, nullable=True)
     reset_token = Column(String, nullable=True)
 
-    def __repr__(self):
-        return f"User<@{self.id} | {self.email}>"
+    # def __repr__(self):
+    #     return f"User<@{self.id} | {self.email}>"
